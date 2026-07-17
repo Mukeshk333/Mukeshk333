@@ -17,6 +17,10 @@ When we want something, all the universe conspires you to achieve it.
 🔐 Final Year B.E Computer Science Engineering (Cyber Security) with Honours
 
 🎓 Dr. Mahalingam College of Engineering and Technology, Pollachi
+   - Percentage: 8.746
+     
+🎓 Pearl Matriculation Higher Secondary School
+   - SSLC Computer Science - Percentage: 90.66
 
 
 🛡 Interested in
@@ -28,16 +32,22 @@ When we want something, all the universe conspires you to achieve it.
   - Aptitude
 
 
+🚀 Projects
+  - Image Encryption using Matrix Scrambling 
+    • Developed a lossless image encryption system using matrix permutation and seeded random key generation in Python. 
+    • Implemented pixel-level scrambling algorithm ensuring reversible decryption.
+  
+  - CTF Challenge Development 
+    • Designed and developed multiple cybersecurity CTF challenges in web exploitation, cryptography, SOC.
+    
 
-🎓 Pearl Matriculation Higher Secondary School
+🏆 Achievements
+  - PicoCTF Participant (Achieved 133rd amoung 10000 teams all over the world
+  - Found some Web based vulnerabilty in Hackerone.
+  - Regular participation in Capture the flag competion.
 
-   -
+    
 
-🏆 PicoCTF Participant (Achieved 133rd amoung 10000 teams all over the world 
-
-💼 Treasurer - Encryptix Association 
-
-📚 Representative of my department
 
 🌱 Currently Learning
 
@@ -117,7 +127,15 @@ When we want something, all the universe conspires you to achieve it.
 
 <img src="https://skillicons.dev/icons?i=github"/>
 
-<img src="https://skillicons.dev/icons?i=docker"/>
+</p>
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=Burp Suite"/>
+
+<img src="https://skillicons.dev/icons?i=Splunk"/>
+
+<img src="https://skillicons.dev/icons?i=Wireshark"/>
 
 </p>
 
@@ -165,7 +183,7 @@ Features
 
 ---
 
-# 📚 Currently Exploring
+📚 Currently Exploring
 
 ✔ Threat Hunting
 
@@ -173,11 +191,12 @@ Features
 
 ✔ Detection Engineering
 
-✔ DFIR
-
-✔ Cloud Security
-
 ---
+
+
+💼 Extracurricular Activities
+  - Treasurer - Encryptix Association 
+  - Representative of my department (Cyber Security).
 
 
 "Security is not merely a feature; it is a prerequisite for the responsible use of technology."
