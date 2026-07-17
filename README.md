@@ -7,7 +7,7 @@ When we want something, all the universe conspires you to achieve it.
 </h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=800&lines=Cyber+Security+Practioner;Security+operation;Threat+Detection;Vulnerability+Assessment+and+Penetration+Testing+%7C+Web+Security;Always+Learning+Something+New" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=700&lines=Cyber+Security+Practioner;Security+operation;Threat+Detection;Vulnerability+Assessment+and+Penetration+Testing;Web+Security;Active+Learner;Patient+person" />
 </p>
 
 ---
