@@ -190,7 +190,7 @@ Features
 
 ---
 
-<p align="center">
 
-⭐ Thank you for giving your precious time.
+
+<p align="center">⭐ Thank you for giving your precious time.
 </p>
