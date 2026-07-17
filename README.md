@@ -7,7 +7,7 @@ Cyber Security Enthusiast | SOC Analyst Aspirant | VAPT Learner | CTF Player
 </h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=700&lines=Cyber+Security+Student;SOC+%7C+Threat+Detection;VAPT+%7C+Web+Security;CTF+Player;Always+Learning+Something+New" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&center=true&vCenter=true&width=700&lines=Cyber+Security+Practioner;Security+operation;Threat+Detection;Vulnerability+Assessment+and+Penetration+Testing+%7C+Web+Security;Always+Learning+Something+New" />
 </p>
 
 ---
