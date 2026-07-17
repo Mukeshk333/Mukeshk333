@@ -22,6 +22,7 @@ When we want something, all the universe conspires you to achieve it.
 🎓 Pearl Matriculation Higher Secondary School
    - SSLC Computer Science - Percentage: 90.66
 
+--- 
 
 🛡 Interested in
 
@@ -31,6 +32,7 @@ When we want something, all the universe conspires you to achieve it.
   - Mathematics
   - Aptitude
 
+---
 
 🚀 Projects
   - Image Encryption using Matrix Scrambling 
@@ -40,6 +42,7 @@ When we want something, all the universe conspires you to achieve it.
   - CTF Challenge Development 
     • Designed and developed multiple cybersecurity CTF challenges in web exploitation, cryptography, SOC.
     
+--- 
 
 🏆 Achievements
   - PicoCTF Participant (Achieved 133rd amoung 10000 teams all over the world
@@ -47,7 +50,7 @@ When we want something, all the universe conspires you to achieve it.
   - Regular participation in Capture the flag competion.
 
     
-
+---
 
 🌱 Currently Learning
 
@@ -129,36 +132,19 @@ When we want something, all the universe conspires you to achieve it.
 
 </p>
 
-<p>
 
-<img src="https://skillicons.dev/icons?i=Burp Suite"/>
+Other Tools
 
-<img src="https://skillicons.dev/icons?i=Splunk"/>
-
-<img src="https://skillicons.dev/icons?i=Wireshark"/>
-
-</p>
-
-### Other Tools
-
-- Burp Suite
-- Splunk
-- Wireshark
-- Metasploit
-- Nmap
-- OWASP ZAP
-- SQLMap
-- John The Ripper
-- FFUF
-- Shodan
-- DNSDumpster
-- Amass
+- Splunk         - Burp Suite
+- Wireshark      - Wazuh
+- Metasploit     - Nmap
+- OWASP ZAP      - SQLMap
+- FFUF           - John The Ripper
+- Shodan         - DNSDumpster
 
 ---
 
 # 🚀 Current Projects
-
-### 🔒 Thozhar
 
 Advanced Image Encryption using
 
@@ -169,7 +155,6 @@ Advanced Image Encryption using
 
 ---
 
-### 🛡 SIEM Project
 
 Custom Security Information and Event Management
 
