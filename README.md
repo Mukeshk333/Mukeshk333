@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-Cyber Security Enthusiast | SOC Analyst Aspirant | VAPT Learner | CTF Player
+Cyber Security Enthusiast | SOC Analyst Aspirant | VAPT Learner | Treasurer in Encryptix Association
 </h3>
 
 <p align="center">
@@ -14,28 +14,31 @@ Cyber Security Enthusiast | SOC Analyst Aspirant | VAPT Learner | CTF Player
 
 # 💫 About Me
 
-🔐 Final Year B.E Cyber Security (Honours)
+🔐 Final Year B.E Computer Science Engineering (Cyber Security) with Honours
 
-🎓 Dr. Mahalingam College of Engineering and Technology
+🎓 Dr. Mahalingam College of Engineering and Technology, Pollachi
 
 🛡 Interested in
 
 - Security Operations Center (SOC)
 - Vulnerability Assessment & Penetration Testing
-- Malware Analysis
 - Incident Response
-- Digital Forensics
+- Mathematics
+- Aptitude
 
-🏆 PicoCTF Participant
+🏆 PicoCTF Participant (Achieved 133rd amoung 10000 teams all over the world 
 
-💼 Treasurer - Encryptix Association
+💼 Treasurer - Encryptix Association 
+
+📚 Representative of my department
 
 🌱 Currently Learning
 
+- Certified SOC Analyst (CSA) v2
 - Advanced SOC Operations
 - Threat Hunting
 - Detection Engineering
-- Malware Analysis
+  
 
 ---
 
@@ -43,15 +46,15 @@ Cyber Security Enthusiast | SOC Analyst Aspirant | VAPT Learner | CTF Player
 
 <p align="left">
 
-<a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+<a href="https://www.linkedin.com/in/mukeshk333/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badg&logo=linkedin"/>
 </a>
 
-<a href="mailto:YOUR_EMAIL">
+<a href="mailto:mukeshoffi75284@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
 </a>
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<a href="https://github.com/Mukeshk333">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
 </a>
 
@@ -69,13 +72,14 @@ Cyber Security Enthusiast | SOC Analyst Aspirant | VAPT Learner | CTF Player
 
 <img src="https://skillicons.dev/icons?i=c"/>
 
+<img src="https://skillicons.dev/icons?i=mysql"/>
+
 <img src="https://skillicons.dev/icons?i=js"/>
 
 <img src="https://skillicons.dev/icons?i=html"/>
 
 <img src="https://skillicons.dev/icons?i=css"/>
 
-<img src="https://skillicons.dev/icons?i=react"/>
 
 </p>
 
