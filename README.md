@@ -183,14 +183,14 @@ Features
   - Treasurer - Encryptix Association 
   - Representative of my department (Cyber Security).
 
-
-"Security is not merely a feature; it is a prerequisite for the responsible use of technology."
+---
+<p align="center"> "Security is not merely a feature; it is a prerequisite for the responsible use of technology."
 
 </p>
 
 ---
 
 <p align="center">
-
+---
 ⭐ Thank you for giving your precious time.
 </p>
