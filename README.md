@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-Cyber Security Enthusiast | SOC Analyst Aspirant | VAPT Learner | Treasurer in Encryptix Association
+When we want something, all the universe conspires you to achieve it.
 </h3>
 
 <p align="center">
@@ -183,54 +183,6 @@ Features
 </p>
 
 ---
-
-# 🔥 GitHub Streak
-
-<p align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🏆 GitHub Trophy
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=algolia&margin-w=15"/>
-
-</p>
-
----
-
-# 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night"/>
-
-</p>
-
----
-
-# ⚡ Fun Fact
-
-```text
-while(alive){
-
-    Learn();
-    Build();
-    Break();
-    Secure();
-    Repeat();
-
-}
-```
-
----
-
-<p align="center">
 
 "Security is not a product, but a process."
 
