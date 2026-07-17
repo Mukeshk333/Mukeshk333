@@ -18,13 +18,20 @@ When we want something, all the universe conspires you to achieve it.
 
 🎓 Dr. Mahalingam College of Engineering and Technology, Pollachi
 
+
 🛡 Interested in
 
-- Security Operations Center (SOC)
-- Vulnerability Assessment & Penetration Testing
-- Incident Response
-- Mathematics
-- Aptitude
+  - Security Operations Center (SOC)
+  - Vulnerability Assessment & Penetration Testing
+  - Incident Response
+  - Mathematics
+  - Aptitude
+
+
+
+🎓 Pearl Matriculation Higher Secondary School
+
+   -
 
 🏆 PicoCTF Participant (Achieved 133rd amoung 10000 teams all over the world 
 
@@ -172,19 +179,8 @@ Features
 
 ---
 
-# 📊 GitHub Statistics
 
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight"/>
-
-</p>
-
----
-
-"Security is not a product, but a process."
+"Security is not merely a feature; it is a prerequisite for the responsible use of technology."
 
 </p>
 
@@ -192,6 +188,5 @@ Features
 
 <p align="center">
 
-⭐ If you like my work, consider giving a star!
-
+⭐ Thank you for giving your precious time.
 </p>
