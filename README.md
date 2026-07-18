@@ -56,34 +56,6 @@
 <tr>
 <td width="50%">
 
-### 🚩 CTF Challenge Development
-> Web Exploitation • Cryptography • SOC Scenarios
-
-Designed and built multiple cybersecurity CTF challenges spanning web exploitation, cryptography, and blue-team/SOC tracks.
-
-</td>
-<td width="50%">
-
-### 🎯 Vulnerability Disclosure
-> HackerOne • Authentication Bypass
-
-Identified and responsibly disclosed an authentication bypass vulnerability through the HackerOne platform.
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-### 🛡️ Custom SIEM (In Progress)
-> Log Collection • Parsing • Detection Rules • Alerting • Dashboards
-
-Building a lightweight Security Information and Event Management pipeline from log ingestion to alert generation.
-
-</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 ## 🏆 Achievements & Certifications
 
