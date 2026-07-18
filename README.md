@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-When we want something, all the universe conspires you to achieve it.
+When you want something, all the universe conspires you to achieve it.
 </h3>
 
 <p align="center">
