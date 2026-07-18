@@ -1,8 +1,9 @@
 <svg viewBox="0 0 1600 980" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050810"/>
-      <stop offset="100%" stop-color="#0a1020"/>
+      <stop offset="0%" stop-color="#0b0f2b"/>
+      <stop offset="45%" stop-color="#0e1435"/>
+      <stop offset="100%" stop-color="#160b2e"/>
     </linearGradient>
     <linearGradient id="iconBox" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#7b5cff"/>
@@ -13,8 +14,8 @@
       <stop offset="100%" stop-color="#7b5cff"/>
     </linearGradient>
     <linearGradient id="rightPanel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0e1330"/>
-      <stop offset="100%" stop-color="#160a2e"/>
+      <stop offset="0%" stop-color="#0e1435"/>
+      <stop offset="100%" stop-color="#160b2e"/>
     </linearGradient>
     <radialGradient id="glowSpot" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.35"/>
@@ -31,10 +32,16 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#26305a" opacity="0.4"/>
+    </pattern>
   </defs>
 
   <!-- outer frame -->
   <rect x="4" y="4" width="1592" height="972" rx="28" fill="url(#bg)" stroke="url(#borderGlow)" stroke-width="2" opacity="0.9"/>
+  <rect x="4" y="4" width="1592" height="972" rx="28" fill="url(#dots)" opacity="0.7"/>
+  <circle cx="180" cy="850" r="240" fill="url(#glowSpot)"/>
+  <circle cx="1400" cy="80" r="260" fill="url(#glowSpotPurple)"/>
   <rect x="0" y="0" width="140" height="8" rx="4" fill="#00e5ff" transform="translate(60,10)"/>
 
   <!-- header -->
