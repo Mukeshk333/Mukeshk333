@@ -50,12 +50,7 @@
 
 </div>
 
-<br/>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%">
-
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 ## 🏆 Achievements & Certifications
 
@@ -70,16 +65,8 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Mukeshk333&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0e1435&title_color=4db8ff&icon_color=4db8ff&text_color=c9d1d9"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukeshk333&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0e1435&title_color=4db8ff&text_color=c9d1d9"/>
-
-<br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mukeshk333&theme=dark&hide_border=true&background=0e1435&ring=4db8ff&fire=4db8ff&currStreakLabel=4db8ff"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Mukeshk333&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8"/>
 
 </div>
 
