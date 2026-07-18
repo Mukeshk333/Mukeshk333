@@ -1,0 +1,264 @@
+<svg viewBox="0 0 1600 1080" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f2b"/>
+      <stop offset="45%" stop-color="#0e1435"/>
+      <stop offset="100%" stop-color="#160b2e"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff4fd8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff4fd8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#7fdcff"/>
+    </linearGradient>
+    <linearGradient id="titleGrad2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#26305a" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- shared background -->
+  <rect x="0" y="0" width="1600" height="1080" rx="26" fill="url(#pageBg)"/>
+  <rect x="0" y="0" width="1600" height="1080" rx="26" fill="url(#dots)"/>
+  <circle cx="150" cy="120" r="260" fill="url(#glowCyan)"/>
+  <circle cx="900" cy="60" r="260" fill="url(#glowPurple)"/>
+  <circle cx="1450" cy="250" r="260" fill="url(#glowPink)"/>
+  <circle cx="300" cy="800" r="300" fill="url(#glowPurple)"/>
+  <circle cx="1300" cy="900" r="300" fill="url(#glowCyan)"/>
+  <rect x="0" y="0" width="1600" height="1080" rx="26" fill="none" stroke="#2a3560" stroke-width="1.5"/>
+
+  <!-- ===================== SECTION 1: AREAS OF INTEREST ===================== -->
+  <g transform="translate(60,50)">
+    <circle cx="24" cy="20" r="18" fill="none" stroke="#00d4ff" stroke-width="2.5"/>
+    <circle cx="24" cy="20" r="7" fill="none" stroke="#00d4ff" stroke-width="2.5"/>
+    <text x="58" y="30" font-size="30" font-weight="800" letter-spacing="1.5" fill="url(#titleGrad)">AREAS OF INTEREST</text>
+    <rect x="0" y="46" width="130" height="4" rx="2" fill="#00d4ff"/>
+    <circle cx="140" cy="48" r="4" fill="#00d4ff"/>
+  </g>
+
+  <!-- card template values -->
+  <!-- Card 1: SOC (cyan) -->
+  <g transform="translate(60,120)">
+    <rect x="0" y="0" width="336" height="270" rx="18" fill="#0d1330" fill-opacity="0.55" stroke="#0fd0ff" stroke-width="1.3"/>
+    <circle cx="168" cy="70" r="46" fill="#0a1730" stroke="#00d4ff" stroke-width="2"/>
+    <g transform="translate(140,44)" filter="url(#soft)">
+      <rect x="0" y="0" width="56" height="38" rx="4" fill="none" stroke="#00d4ff" stroke-width="3"/>
+      <rect x="22" y="38" width="12" height="10" fill="#00d4ff"/>
+      <rect x="12" y="48" width="32" height="4" fill="#00d4ff"/>
+      <path d="M28 10 l8 6 v10 a10 8 0 0 1 -16 0 v-10 z" fill="#00d4ff" opacity="0.9"/>
+    </g>
+    <text x="168" y="152" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="0.5" fill="#00d4ff">SECURITY OPERATIONS CENTER</text>
+    <text x="168" y="180" text-anchor="middle" font-size="14" fill="#c3c9dd">Monitoring, analyzing and</text>
+    <text x="168" y="200" text-anchor="middle" font-size="14" fill="#c3c9dd">defending organizational assets</text>
+    <line x1="24" y1="238" x2="90" y2="238" stroke="#233057" stroke-width="2"/>
+    <circle cx="146" cy="238" r="4" fill="#00d4ff"/>
+    <circle cx="164" cy="238" r="4" fill="#00d4ff"/>
+    <circle cx="182" cy="238" r="4" fill="#00d4ff"/>
+    <circle cx="200" cy="238" r="4" fill="#00d4ff"/>
+    <line x1="246" y1="238" x2="312" y2="238" stroke="#233057" stroke-width="2"/>
+  </g>
+
+  <!-- Card 2: Threat Detection (purple) -->
+  <g transform="translate(420,120)">
+    <rect x="0" y="0" width="336" height="270" rx="18" fill="#150d30" fill-opacity="0.55" stroke="#a855f7" stroke-width="1.3"/>
+    <circle cx="168" cy="70" r="46" fill="#160a30" stroke="#a855f7" stroke-width="2"/>
+    <g transform="translate(140,42)" filter="url(#soft)">
+      <path d="M28 0 L52 10 V32 C52 50 40 58 28 62 C16 58 4 50 4 32 V10 Z" fill="none" stroke="#c084fc" stroke-width="3"/>
+      <line x1="28" y1="20" x2="28" y2="36" stroke="#c084fc" stroke-width="3"/>
+      <circle cx="28" cy="46" r="2.5" fill="#c084fc"/>
+    </g>
+    <text x="168" y="152" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="0.5" fill="#c084fc">THREAT DETECTION &amp; RESPONSE</text>
+    <text x="168" y="180" text-anchor="middle" font-size="14" fill="#c3c9dd">Detecting threats early and</text>
+    <text x="168" y="200" text-anchor="middle" font-size="14" fill="#c3c9dd">responding effectively</text>
+    <line x1="24" y1="238" x2="90" y2="238" stroke="#2a2058" stroke-width="2"/>
+    <circle cx="146" cy="238" r="4" fill="#c084fc"/>
+    <circle cx="164" cy="238" r="4" fill="#c084fc"/>
+    <circle cx="182" cy="238" r="4" fill="#c084fc"/>
+    <line x1="200" y1="238" x2="312" y2="238" stroke="#2a2058" stroke-width="2"/>
+  </g>
+
+  <!-- Card 3: VAPT (green) -->
+  <g transform="translate(780,120)">
+    <rect x="0" y="0" width="336" height="270" rx="18" fill="#0a1f18" fill-opacity="0.55" stroke="#22e58f" stroke-width="1.3"/>
+    <circle cx="168" cy="70" r="46" fill="#08160f" stroke="#22e58f" stroke-width="2"/>
+    <g transform="translate(140,42)" filter="url(#soft)">
+      <path d="M28 2 L52 14 V38 L28 60 L4 38 V14 Z" fill="none" stroke="#3ddc84" stroke-width="3"/>
+      <path d="M4 14 L28 26 L52 14" fill="none" stroke="#3ddc84" stroke-width="2.5"/>
+      <line x1="28" y1="26" x2="28" y2="60" stroke="#3ddc84" stroke-width="2.5"/>
+    </g>
+    <text x="168" y="152" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="0.5" fill="#3ddc84">VAPT</text>
+    <text x="168" y="180" text-anchor="middle" font-size="14" fill="#c3c9dd">Finding vulnerabilities and</text>
+    <text x="168" y="200" text-anchor="middle" font-size="14" fill="#c3c9dd">securing applications</text>
+    <line x1="24" y1="238" x2="90" y2="238" stroke="#1c3a2c" stroke-width="2"/>
+    <circle cx="146" cy="238" r="4" fill="#3ddc84"/>
+    <circle cx="164" cy="238" r="4" fill="#3ddc84"/>
+    <circle cx="182" cy="238" r="4" fill="#3ddc84"/>
+    <circle cx="200" cy="238" r="4" fill="#3ddc84"/>
+    <line x1="246" y1="238" x2="312" y2="238" stroke="#1c3a2c" stroke-width="2"/>
+  </g>
+
+  <!-- Card 4: Incident Response (orange) -->
+  <g transform="translate(1140,120)">
+    <rect x="0" y="0" width="336" height="270" rx="18" fill="#241206" fill-opacity="0.55" stroke="#ffa733" stroke-width="1.3"/>
+    <circle cx="168" cy="70" r="46" fill="#1a0f04" stroke="#ffa733" stroke-width="2"/>
+    <g transform="translate(140,42)" filter="url(#soft)">
+      <circle cx="28" cy="28" r="24" fill="none" stroke="#ffb454" stroke-width="3"/>
+      <circle cx="28" cy="28" r="13" fill="none" stroke="#ffb454" stroke-width="3"/>
+      <circle cx="28" cy="28" r="3" fill="#ffb454"/>
+      <line x1="28" y1="0" x2="28" y2="10" stroke="#ffb454" stroke-width="3"/>
+      <line x1="28" y1="46" x2="28" y2="56" stroke="#ffb454" stroke-width="3"/>
+      <line x1="0" y1="28" x2="10" y2="28" stroke="#ffb454" stroke-width="3"/>
+      <line x1="46" y1="28" x2="56" y2="28" stroke="#ffb454" stroke-width="3"/>
+    </g>
+    <text x="168" y="152" text-anchor="middle" font-size="17" font-weight="800" letter-spacing="0.5" fill="#ffb454">INCIDENT RESPONSE</text>
+    <text x="168" y="180" text-anchor="middle" font-size="14" fill="#c3c9dd">Handling security incidents and</text>
+    <text x="168" y="200" text-anchor="middle" font-size="14" fill="#c3c9dd">minimizing impact</text>
+    <line x1="24" y1="238" x2="90" y2="238" stroke="#3a2a10" stroke-width="2"/>
+    <circle cx="146" cy="238" r="4" fill="#ffb454"/>
+    <circle cx="164" cy="238" r="4" fill="#ffb454"/>
+    <circle cx="182" cy="238" r="4" fill="#ffb454"/>
+    <line x1="200" y1="238" x2="312" y2="238" stroke="#3a2a10" stroke-width="2"/>
+  </g>
+
+  <!-- ===================== SECTION 2: TECH ARSENAL ===================== -->
+  <g transform="translate(60,430)">
+    <g transform="translate(6,10)">
+      <circle cx="16" cy="16" r="16" fill="none" stroke="#c084fc" stroke-width="2.5"/>
+      <circle cx="16" cy="16" r="5" fill="none" stroke="#c084fc" stroke-width="2.5"/>
+      <line x1="16" y1="0" x2="16" y2="4" stroke="#c084fc" stroke-width="2.5"/>
+      <line x1="16" y1="28" x2="16" y2="32" stroke="#c084fc" stroke-width="2.5"/>
+      <line x1="0" y1="16" x2="4" y2="16" stroke="#c084fc" stroke-width="2.5"/>
+      <line x1="28" y1="16" x2="32" y2="16" stroke="#c084fc" stroke-width="2.5"/>
+    </g>
+    <text x="52" y="32" font-size="30" font-weight="800" letter-spacing="1.5" fill="url(#titleGrad2)">TECH ARSENAL</text>
+    <rect x="0" y="48" width="90" height="4" rx="2" fill="#00d4ff"/>
+  </g>
+
+  <!-- languages + tools panel -->
+  <g transform="translate(60,500)">
+    <rect x="0" y="0" width="1480" height="520" rx="20" fill="#0b1128" fill-opacity="0.55" stroke="#233057" stroke-width="1.3"/>
+
+    <!-- languages label -->
+    <line x1="470" y1="46" x2="700" y2="46" stroke="#284066" stroke-width="1.5"/>
+    <text x="740" y="52" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="2" fill="#eaf2ff">LANGUAGES</text>
+    <circle cx="700" cy="46" r="3" fill="#00d4ff"/>
+    <circle cx="782" cy="46" r="3" fill="#00d4ff"/>
+    <line x1="782" y1="46" x2="1010" y2="46" stroke="#284066" stroke-width="1.5"/>
+
+    <!-- language badges -->
+    <g font-size="13" fill="#c3c9dd" text-anchor="middle" font-weight="600">
+      <g transform="translate(200,90)">
+        <rect x="0" y="0" width="90" height="90" rx="14" fill="#0e1a3a" stroke="#3572A5" stroke-width="1.5" transform="rotate(0)"/>
+        <path d="M45 22c-13 0-13 6-13 6v8h13v2H24s-8 1-8 14 7 13 7 13h4v-9s0-8 8-8h11s8 0 8-8V29s1-7-9-7zm-7 6a3 3 0 110 6 3 3 0 010-6z" fill="#3776AB" transform="translate(9,10) scale(0.85)"/>
+        <path d="M45 68c13 0 13-6 13-6v-8H45v-2h21s8-1 8-14-7-13-7-13h-4v9s0 8-8 8H44s-8 0-8 8v14s-1 7 9 7zm7-6a3 3 0 110-6 3 3 0 010 6z" fill="#FFD43B" transform="translate(9,10) scale(0.85)"/>
+        <text x="45" y="112" fill="#eaf2ff">Python</text>
+      </g>
+      <g transform="translate(340,90)">
+        <rect x="0" y="0" width="90" height="90" rx="14" fill="#160f08" stroke="#E76F00" stroke-width="1.5"/>
+        <path d="M30 55c-3 5 3 9 12 9 14 0 22-6 22-12 0-4-4-6-8-7 6 1 12 3 12 8 0 8-11 14-26 14-11 0-16-5-12-12z" fill="#E76F00" transform="translate(8,4)"/>
+        <path d="M43 15c-6 6 8 10 0 18 0 0 12-6 6-14-5-7-6-4-6-4z" fill="#5382A1" transform="translate(8,4)"/>
+        <ellipse cx="45" cy="42" rx="18" ry="4" fill="none" stroke="#5382A1" stroke-width="1.5" transform="translate(0,4)"/>
+        <text x="45" y="112" fill="#eaf2ff">Java</text>
+      </g>
+      <g transform="translate(480,90)">
+        <rect x="0" y="0" width="90" height="90" rx="14" fill="#0a1830" stroke="#4b9fe1" stroke-width="1.5"/>
+        <circle cx="45" cy="45" r="22" fill="none" stroke="#4b9fe1" stroke-width="4"/>
+        <text x="45" y="53" text-anchor="middle" font-size="26" font-weight="800" fill="#4b9fe1">C</text>
+        <text x="45" y="112" fill="#eaf2ff">C</text>
+      </g>
+      <g transform="translate(620,90)">
+        <rect x="0" y="0" width="90" height="90" rx="14" fill="#0a1830" stroke="#4b9fe1" stroke-width="1.5"/>
+        <circle cx="45" cy="45" r="22" fill="none" stroke="#4b9fe1" stroke-width="4"/>
+        <text x="45" y="53" text-anchor="middle" font-size="20" font-weight="800" fill="#4b9fe1">C++</text>
+        <text x="45" y="112" fill="#eaf2ff">C / C++</text>
+      </g>
+      <g transform="translate(760,90)">
+        <rect x="0" y="0" width="90" height="90" rx="14" fill="#241d05" stroke="#F0DB4F" stroke-width="1.5"/>
+        <text x="45" y="58" text-anchor="middle" font-size="30" font-weight="800" fill="#F0DB4F">JS</text>
+        <text x="45" y="112" fill="#eaf2ff">JavaScript</text>
+      </g>
+      <g transform="translate(900,90)">
+        <rect x="0" y="0" width="90" height="90" rx="14" fill="#2a0f06" stroke="#E44D26" stroke-width="1.5"/>
+        <text x="45" y="58" text-anchor="middle" font-size="26" font-weight="800" fill="#E44D26">5</text>
+        <text x="45" y="112" fill="#eaf2ff">HTML5</text>
+      </g>
+      <g transform="translate(1040,90)">
+        <rect x="0" y="0" width="90" height="90" rx="14" fill="#06152a" stroke="#2965F1" stroke-width="1.5"/>
+        <text x="45" y="58" text-anchor="middle" font-size="26" font-weight="800" fill="#2965F1">3</text>
+        <text x="45" y="112" fill="#eaf2ff">CSS3</text>
+      </g>
+    </g>
+
+    <!-- SOC tools label -->
+    <line x1="470" y1="270" x2="640" y2="270" stroke="#284066" stroke-width="1.5"/>
+    <text x="740" y="276" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="2" fill="#eaf2ff">SOC / SECURITY TOOLS</text>
+    <line x1="855" y1="270" x2="1010" y2="270" stroke="#284066" stroke-width="1.5"/>
+
+    <!-- tool pills row 1 -->
+    <g font-size="16" font-weight="700" text-anchor="start">
+      <g transform="translate(60,300)">
+        <rect width="180" height="70" rx="12" fill="#07200f" stroke="#3ddc84" stroke-width="1.5"/>
+        <path d="M26 22 L46 35 L26 48 Z" fill="#3ddc84"/>
+        <text x="62" y="42" fill="#3ddc84">SPLUNK</text>
+      </g>
+      <g transform="translate(260,300)">
+        <rect width="180" height="70" rx="12" fill="#061a2e" stroke="#4b9fe1" stroke-width="1.5"/>
+        <circle cx="36" cy="35" r="14" fill="none" stroke="#4b9fe1" stroke-width="2.5"/>
+        <path d="M30 32 L36 38 L44 28" fill="none" stroke="#4b9fe1" stroke-width="2.5"/>
+        <text x="62" y="42" fill="#4b9fe1">WAZUH</text>
+      </g>
+      <g transform="translate(460,300)">
+        <rect width="180" height="70" rx="12" fill="#071f31" stroke="#2fa7e0" stroke-width="1.5"/>
+        <path d="M22 42 Q36 16 50 42 Q36 34 22 42Z" fill="#2fa7e0"/>
+        <text x="62" y="42" fill="#2fa7e0">WIRESHARK</text>
+      </g>
+      <g transform="translate(660,300)">
+        <rect width="180" height="70" rx="12" fill="#2a1704" stroke="#ffa733" stroke-width="1.5"/>
+        <path d="M34 18 L22 40 H32 L28 52 L48 30 H36 Z" fill="#ffa733"/>
+        <text x="62" y="42" fill="#ffa733">BURP SUITE</text>
+      </g>
+      <g transform="translate(860,300)">
+        <rect width="180" height="70" rx="12" fill="#06251a" stroke="#22e58f" stroke-width="1.5"/>
+        <ellipse cx="36" cy="35" rx="16" ry="10" fill="none" stroke="#22e58f" stroke-width="2.5"/>
+        <circle cx="36" cy="35" r="4" fill="#22e58f"/>
+        <text x="62" y="42" fill="#22e58f">NMAP</text>
+      </g>
+      <g transform="translate(1060,300)">
+        <rect width="200" height="70" rx="12" fill="#071c30" stroke="#4b9fe1" stroke-width="1.5"/>
+        <rect x="24" y="20" width="24" height="30" rx="4" fill="none" stroke="#4b9fe1" stroke-width="2.5"/>
+        <text x="36" y="42" text-anchor="middle" font-size="16" fill="#4b9fe1">M</text>
+        <text x="62" y="42" fill="#4b9fe1">METASPLOIT</text>
+      </g>
+      <g transform="translate(1280,300)">
+        <rect width="160" height="70" rx="12" fill="#1c0a2a" stroke="#c084fc" stroke-width="1.5"/>
+        <path d="M30 20 Q22 35 30 50 Q26 35 34 20Z" fill="#c084fc"/>
+        <text x="56" y="42" fill="#c084fc">KALI LINUX</text>
+      </g>
+    </g>
+
+    <!-- event viewer pill centered -->
+    <g transform="translate(600,410)" font-size="17" font-weight="700">
+      <rect width="280" height="66" rx="14" fill="#061a30" stroke="#4b9fe1" stroke-width="1.5"/>
+      <rect x="24" y="20" width="26" height="26" rx="5" fill="none" stroke="#4b9fe1" stroke-width="2.5"/>
+      <line x1="24" y1="28" x2="50" y2="28" stroke="#4b9fe1" stroke-width="2"/>
+      <text x="70" y="40" fill="#4b9fe1">EVENT VIEWER</text>
+    </g>
+  </g>
+</svg>
