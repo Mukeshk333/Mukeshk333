@@ -16,6 +16,14 @@
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/>
 </a>
 
+<br/><br/>
+
+<a href="https://mukeshk333.github.io/terminal-widget.html" title="Open interactive terminal">
+  <img src="./assets/terminal-icon.svg" width="64" height="64"/>
+</a>
+<br/>
+<sub>💬 Click the terminal — ask it about me</sub>
+
 </div>
 
 <br/>
