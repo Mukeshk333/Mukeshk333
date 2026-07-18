@@ -52,6 +52,16 @@
 
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
+## 💼 Internship Experiences
+
+<div align="center">
+
+<img src="./assets/internship-experiences.svg" width="100%"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
+
 ## 🏆 Achievements & Certifications
 
 <div align="center">
