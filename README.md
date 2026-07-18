@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=MUKESH%20K&fontSize=60&fontColor=00ffcc&fontAlignY=40&desc=SOC%20Analyst%20%7C%20Threat%20Detection%20%7C%20Cyber%20Security&descAlignY=60&descSize=18&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0b0f2b,50:0e1435,100:160b2e&height=220&section=header&text=MUKESH%20K&fontSize=60&fontColor=4db8ff&fontAlignY=40&desc=SOC%20Analyst%20%7C%20Threat%20Detection%20%7C%20Cyber%20Security&descAlignY=60&descSize=18&animation=twinkling" width="100%"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00FFCC&center=true&vCenter=true&width=750&lines=Security+Operations+Center+(SOC)+Analyst;Threat+Detection+%7C+Incident+Response;Log+Analysis+%7C+SIEM+%7C+Network+Security;Vulnerability+Assessment+%26+Pentesting;Always+Learning+%7C+Always+Watching+%F0%9F%9B%A1%EF%B8%8F" />
 
@@ -20,7 +20,7 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 ## 🧑‍💻 About Me
 
@@ -30,7 +30,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 ## 🛰️ Areas of Interest &amp; ⚙️ Tech Arsenal
 
@@ -40,7 +40,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 ## 🚀 Featured Projects
 
@@ -83,7 +83,7 @@ Identified and responsibly disclosed an authentication bypass vulnerability thro
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 ## 🏆 Achievements & Certifications
 
@@ -100,17 +100,17 @@ Identified and responsibly disclosed an authentication bypass vulnerability thro
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 ## 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Mukeshk333&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&icon_color=00ffcc&text_color=c9d1d9"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukeshk333&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&title_color=00ffcc&text_color=c9d1d9"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Mukeshk333&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0e1435&title_color=4db8ff&icon_color=4db8ff&text_color=c9d1d9"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mukeshk333&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0e1435&title_color=4db8ff&text_color=c9d1d9"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mukeshk333&theme=dark&hide_border=true&background=0d1117&ring=00ffcc&fire=00ffcc&currStreakLabel=00ffcc"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Mukeshk333&theme=dark&hide_border=true&background=0e1435&ring=4db8ff&fire=4db8ff&currStreakLabel=4db8ff"/>
 
 <br/>
 
@@ -118,7 +118,7 @@ Identified and responsibly disclosed an authentication bypass vulnerability thro
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 ## 🐍 Contribution Graph — 3D Snake
 
@@ -130,30 +130,30 @@ Identified and responsibly disclosed an authentication bypass vulnerability thro
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 ## 📚 Currently Exploring
 
 <div align="center">
 
-![](https://img.shields.io/badge/Certified_SOC_Analyst_(CSA)_v2-00ffcc?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Advanced_SOC_Operations-00ffcc?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Threat_Hunting-00ffcc?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Detection_Engineering-00ffcc?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Malware_Analysis-00ffcc?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Certified_SOC_Analyst_(CSA)_v2-4db8ff?style=flat-square&labelColor=0e1435)
+![](https://img.shields.io/badge/Advanced_SOC_Operations-4db8ff?style=flat-square&labelColor=0e1435)
+![](https://img.shields.io/badge/Threat_Hunting-4db8ff?style=flat-square&labelColor=0e1435)
+![](https://img.shields.io/badge/Detection_Engineering-4db8ff?style=flat-square&labelColor=0e1435)
+![](https://img.shields.io/badge/Malware_Analysis-4db8ff?style=flat-square&labelColor=0e1435)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=4db8ff&height=2&section=header"/>
 
 <div align="center">
 
 ### 💬 "Security is not merely a feature; it is a prerequisite for the responsible use of technology."
 
-<img src="https://komarev.com/ghpvc/?username=Mukeshk333&label=Profile+Views&color=00ffcc&style=for-the-badge"/>
+<img src="https://komarev.com/ghpvc/?username=Mukeshk333&label=Profile+Views&color=4db8ff&style=for-the-badge"/>
 
 ⭐ Thank you for stopping by — feel free to connect!
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:160b2e,50:0e1435,100:0b0f2b&height=100&section=footer"/>
