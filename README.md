@@ -32,37 +32,11 @@
 
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
 
-## 🛰️ Areas of Interest
+## 🛰️ Areas of Interest &amp; ⚙️ Tech Arsenal
 
 <div align="center">
 
-![SOC](https://img.shields.io/badge/Security_Operations_Center-black?style=for-the-badge&logo=datadog&logoColor=00ffcc)
-![TDR](https://img.shields.io/badge/Threat_Detection_%26_Response-black?style=for-the-badge&logo=protonvpn&logoColor=00ffcc)
-![VAPT](https://img.shields.io/badge/VAPT-black?style=for-the-badge&logo=hackthebox&logoColor=00ffcc)
-![IR](https://img.shields.io/badge/Incident_Response-black?style=for-the-badge&logo=vaultwarden&logoColor=00ffcc)
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
-
-## ⚙️ Tech Arsenal
-
-<div align="center">
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=python,java,c,mysql,js,html,css&theme=dark" />
-
-**SOC / Security Tools**
-
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-2F8CB1?style=for-the-badge&logo=wazuh&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-2E5C43?style=for-the-badge&logo=nmap&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Windows Event Viewer](https://img.shields.io/badge/Event_Viewer-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+<img src="./assets/tech-section.svg" width="100%"/>
 
 </div>
 
