@@ -1,0 +1,228 @@
+<svg viewBox="0 0 1550 1040" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f2b"/>
+      <stop offset="45%" stop-color="#0e1435"/>
+      <stop offset="100%" stop-color="#160b2e"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#26305a" opacity="0.4"/>
+    </pattern>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1550" height="1040" rx="26" fill="url(#pageBg)"/>
+  <rect x="0" y="0" width="1550" height="1040" rx="26" fill="url(#dots)"/>
+  <circle cx="120" cy="900" r="260" fill="url(#glowCyan)"/>
+  <circle cx="1420" cy="100" r="260" fill="url(#glowPurple)"/>
+  <rect x="0" y="0" width="1550" height="1040" rx="26" fill="none" stroke="#2a3560" stroke-width="1.5"/>
+
+  <!-- header -->
+  <g transform="translate(40,26)">
+    <polygon points="46,0 84,22 84,64 46,86 8,64 8,22" fill="#1a1206" stroke="#ffa733" stroke-width="1.6"/>
+    <path d="M32 24 h28 v14 a14 14 0 0 1 -28 0 z" fill="none" stroke="#ffcf70" stroke-width="2.5"/>
+    <line x1="46" y1="52" x2="46" y2="62" stroke="#ffcf70" stroke-width="2.5"/>
+    <line x1="36" y1="62" x2="56" y2="62" stroke="#ffcf70" stroke-width="2.5"/>
+    <path d="M32 28 h-8 v6 a8 8 0 0 0 8 8" fill="none" stroke="#ffcf70" stroke-width="2"/>
+    <path d="M60 28 h8 v6 a8 8 0 0 1 -8 8" fill="none" stroke="#ffcf70" stroke-width="2"/>
+
+    <text x="112" y="40" font-size="34" font-weight="800" letter-spacing="1" fill="#ffffff">ACHIEVEMENTS &amp; <tspan fill="url(#titleGrad)">CERTIFICATIONS</tspan></text>
+    <rect x="114" y="56" width="120" height="4" rx="2" fill="#c084fc"/>
+  </g>
+
+  <!-- main card -->
+  <g transform="translate(50,130)">
+    <rect x="0" y="0" width="1450" height="850" rx="22" fill="#0a0f28" fill-opacity="0.55" stroke="#2a3560" stroke-width="1.3"/>
+
+    <!-- column headers -->
+    <g transform="translate(48,44)" font-size="16" font-weight="800" letter-spacing="1.5" fill="#eaf2ff">
+      <text x="30" y="0" fill="#f4c04d">🏅</text>
+      <text x="58" y="0">ACHIEVEMENT</text>
+      <text x="530" y="0" fill="#ff6fa5">📌</text>
+      <text x="558" y="0">DETAIL</text>
+    </g>
+    <line x1="30" y1="80" x2="1420" y2="80" stroke="#233057" stroke-width="1.3"/>
+    <line x1="530" y1="30" x2="530" y2="810" stroke="#233057" stroke-width="1"/>
+
+    <!-- ROW TEMPLATE: repeated 6x, each ~123 tall starting at y=100 -->
+
+    <!-- Row 1: PicoCTF (purple) -->
+    <g transform="translate(30,100)">
+      <rect x="0" y="0" width="1390" height="118" rx="14" fill="#0d1128" fill-opacity="0.5" stroke="#a855f7" stroke-width="1" opacity="0.9"/>
+      <rect x="18" y="20" width="76" height="76" rx="14" fill="#160c30" stroke="#a855f7" stroke-width="1.5"/>
+      <g transform="translate(38,38)" filter="url(#soft)">
+        <path d="M4 40 L4 4 L36 20 L20 24 L20 40 Z" fill="none" stroke="#c084fc" stroke-width="2.6" stroke-linejoin="round"/>
+      </g>
+      <text x="116" y="46" font-size="19" font-weight="800" fill="#ffffff">PicoCTF</text>
+      <text x="116" y="70" font-size="13.5" fill="#c084fc">CTF Competition</text>
+
+      <circle cx="530" cy="30" r="6" fill="#c084fc"/>
+      <text x="548" y="36" font-size="16.5" font-weight="700" fill="#eaf2ff">133rd place out of 1,000+ teams</text>
+      <text x="530" y="62" font-size="13.5" fill="#a9b1c6">Competed in PicoCTF and achieved rank 133 among 1,000+ global</text>
+      <text x="530" y="82" font-size="13.5" fill="#a9b1c6">teams, solving web, crypto, forensics and binary exploitation.</text>
+
+      <g transform="translate(1290,20)" text-anchor="middle" filter="url(#soft)">
+        <path d="M38 8 a30 30 0 1 1 0 60 a30 30 0 1 1 0 -60" fill="none" stroke="#a855f7" stroke-width="2"/>
+        <text x="38" y="34" font-size="20" font-weight="800" fill="#c084fc">133</text>
+        <text x="38" y="50" font-size="9.5" fill="#c084fc">RANK</text>
+      </g>
+    </g>
+
+    <!-- Row 2: HackerOne (green) -->
+    <g transform="translate(30,232)">
+      <rect x="0" y="0" width="1390" height="118" rx="14" fill="#0d1128" fill-opacity="0.5" stroke="#22e58f" stroke-width="1" opacity="0.9"/>
+      <rect x="18" y="20" width="76" height="76" rx="14" fill="#06210f" stroke="#22e58f" stroke-width="1.5"/>
+      <g transform="translate(38,38)" filter="url(#soft)">
+        <path d="M18 2 L34 8 V20 C34 30 27 36 18 40 C9 36 2 30 2 20 V8 Z" fill="none" stroke="#3ddc84" stroke-width="2.4"/>
+        <path d="M10 20 L16 26 L27 13" fill="none" stroke="#3ddc84" stroke-width="2.4"/>
+      </g>
+      <text x="116" y="46" font-size="19" font-weight="800" fill="#ffffff">HackerOne</text>
+      <text x="116" y="70" font-size="13.5" fill="#3ddc84">Bug Bounty</text>
+
+      <circle cx="530" cy="30" r="6" fill="#3ddc84"/>
+      <text x="548" y="36" font-size="16.5" font-weight="700" fill="#eaf2ff">Responsibly disclosed an auth bypass vulnerability</text>
+      <text x="530" y="62" font-size="13.5" fill="#a9b1c6">Identified and responsibly disclosed an authentication bypass</text>
+      <text x="530" y="82" font-size="13.5" fill="#a9b1c6">vulnerability through HackerOne, following disclosure guidelines.</text>
+
+      <g transform="translate(1290,20)" text-anchor="middle" filter="url(#soft)">
+        <path d="M38 6 L58 14 V32 C58 46 48 54 38 58 C28 54 18 46 18 32 V14 Z" fill="none" stroke="#22e58f" stroke-width="2.2"/>
+        <path d="M28 32 L35 39 L49 24" fill="none" stroke="#22e58f" stroke-width="2.4"/>
+      </g>
+    </g>
+
+    <!-- Row 3: ISC2 (blue) -->
+    <g transform="translate(30,364)">
+      <rect x="0" y="0" width="1390" height="118" rx="14" fill="#0d1128" fill-opacity="0.5" stroke="#4b9fe1" stroke-width="1" opacity="0.9"/>
+      <rect x="18" y="20" width="76" height="76" rx="14" fill="#061a30" stroke="#4b9fe1" stroke-width="1.5"/>
+      <g transform="translate(38,36)" filter="url(#soft)">
+        <rect x="4" y="0" width="30" height="40" rx="3" fill="none" stroke="#4b9fe1" stroke-width="2.2"/>
+        <line x1="10" y1="10" x2="28" y2="10" stroke="#4b9fe1" stroke-width="1.6"/>
+        <line x1="10" y1="17" x2="28" y2="17" stroke="#4b9fe1" stroke-width="1.6"/>
+        <circle cx="19" cy="28" r="6" fill="none" stroke="#4b9fe1" stroke-width="1.6"/>
+      </g>
+      <text x="116" y="46" font-size="19" font-weight="800" fill="#ffffff">ISC2</text>
+      <text x="116" y="70" font-size="13.5" fill="#4b9fe1">Certification</text>
+
+      <circle cx="530" cy="30" r="6" fill="#4b9fe1"/>
+      <text x="548" y="36" font-size="16.5" font-weight="700" fill="#eaf2ff">Certified in Cybersecurity (CC) — Self Paced, Nov 2025</text>
+      <text x="530" y="62" font-size="13.5" fill="#a9b1c6">Successfully completed and earned the ISC2 Certified in</text>
+      <text x="530" y="82" font-size="13.5" fill="#a9b1c6">Cybersecurity (CC) certification through self-paced learning.</text>
+
+      <g transform="translate(1290,20)" text-anchor="middle" filter="url(#soft)">
+        <polygon points="38,4 66,20 66,52 38,68 10,52 10,20" fill="none" stroke="#4b9fe1" stroke-width="2"/>
+        <text x="38" y="34" font-size="17" font-weight="800" fill="#7fdcff">CC</text>
+        <text x="38" y="50" font-size="8.5" fill="#7fdcff">CERTIFIED</text>
+      </g>
+    </g>
+
+    <!-- Row 4: LinkedIn Learning (orange) -->
+    <g transform="translate(30,496)">
+      <rect x="0" y="0" width="1390" height="118" rx="14" fill="#0d1128" fill-opacity="0.5" stroke="#ffa733" stroke-width="1" opacity="0.9"/>
+      <rect x="18" y="20" width="76" height="76" rx="14" fill="#241705" stroke="#ffa733" stroke-width="1.5"/>
+      <text x="56" y="70" text-anchor="middle" font-size="30" font-weight="800" fill="#ffb454" filter="url(#soft)">in</text>
+      <text x="116" y="46" font-size="19" font-weight="800" fill="#ffffff">LinkedIn Learning</text>
+      <text x="116" y="70" font-size="13.5" fill="#ffb454">Certification</text>
+
+      <circle cx="530" cy="30" r="6" fill="#ffb454"/>
+      <text x="548" y="36" font-size="16.5" font-weight="700" fill="#eaf2ff">Ethical Hacking Certification, Oct 2025</text>
+      <text x="530" y="62" font-size="13.5" fill="#a9b1c6">Completed the Ethical Hacking certification on LinkedIn</text>
+      <text x="530" y="82" font-size="13.5" fill="#a9b1c6">Learning, covering pentesting, network security and analysis.</text>
+
+      <g transform="translate(1290,20)" text-anchor="middle" filter="url(#soft)">
+        <circle cx="38" cy="32" r="24" fill="none" stroke="#ffa733" stroke-width="2.2"/>
+        <path d="M38 8 v10 M38 46 v10 M14 32 h10 M52 32 h10" stroke="#ffa733" stroke-width="1.6"/>
+        <path d="M26 52 L20 68 L38 60 L56 68 L50 52" fill="none" stroke="#ffa733" stroke-width="2"/>
+      </g>
+    </g>
+
+    <!-- Row 5: Cambridge (teal) -->
+    <g transform="translate(30,628)">
+      <rect x="0" y="0" width="1390" height="118" rx="14" fill="#0d1128" fill-opacity="0.5" stroke="#22d3c8" stroke-width="1" opacity="0.9"/>
+      <rect x="18" y="20" width="76" height="76" rx="14" fill="#062120" stroke="#22d3c8" stroke-width="1.5"/>
+      <g transform="translate(38,38)" filter="url(#soft)">
+        <path d="M18 2 L34 10 V22 C34 32 27 38 18 40 C9 38 2 32 2 22 V10 Z" fill="none" stroke="#4ce3d9" stroke-width="2.2"/>
+        <rect x="10" y="14" width="16" height="14" fill="none" stroke="#4ce3d9" stroke-width="1.4"/>
+      </g>
+      <text x="116" y="46" font-size="19" font-weight="800" fill="#ffffff">Cambridge</text>
+      <text x="116" y="70" font-size="13.5" fill="#4ce3d9">Certification</text>
+
+      <circle cx="530" cy="30" r="6" fill="#4ce3d9"/>
+      <text x="548" y="36" font-size="16.5" font-weight="700" fill="#eaf2ff">Lingua Skill Certification, May 2024</text>
+      <text x="530" y="62" font-size="13.5" fill="#a9b1c6">Achieved Lingua Skill Certification from Cambridge for</text>
+      <text x="530" y="82" font-size="13.5" fill="#a9b1c6">proficiency in communication and technical English skills.</text>
+
+      <g transform="translate(1290,20)" text-anchor="middle" filter="url(#soft)">
+        <rect x="14" y="8" width="48" height="48" rx="6" fill="none" stroke="#22d3c8" stroke-width="2"/>
+        <text x="38" y="32" font-size="12" fill="#4ce3d9">🎓</text>
+        <text x="38" y="70" font-size="10" fill="#4ce3d9">CAMBRIDGE</text>
+      </g>
+    </g>
+
+    <!-- Row 6: Encryptix Association (pink) -->
+    <g transform="translate(30,760)">
+      <rect x="0" y="0" width="1390" height="118" rx="14" fill="#0d1128" fill-opacity="0.5" stroke="#ff5f87" stroke-width="1" opacity="0.9"/>
+      <rect x="18" y="20" width="76" height="76" rx="14" fill="#26071a" stroke="#ff5f87" stroke-width="1.5"/>
+      <g transform="translate(38,38)" filter="url(#soft)">
+        <circle cx="10" cy="10" r="7" fill="none" stroke="#ff7fa8" stroke-width="2"/>
+        <circle cx="26" cy="10" r="7" fill="none" stroke="#ff7fa8" stroke-width="2"/>
+        <path d="M2 34 a10 10 0 0 1 16 0" fill="none" stroke="#ff7fa8" stroke-width="2"/>
+        <path d="M18 34 a10 10 0 0 1 16 0" fill="none" stroke="#ff7fa8" stroke-width="2"/>
+      </g>
+      <text x="116" y="46" font-size="19" font-weight="800" fill="#ffffff">Encryptix Association</text>
+      <text x="116" y="70" font-size="13.5" fill="#ff7fa8">Leadership</text>
+
+      <circle cx="530" cy="30" r="6" fill="#ff7fa8"/>
+      <text x="548" y="36" font-size="16.5" font-weight="700" fill="#eaf2ff">Treasurer — financial planning &amp; event execution</text>
+      <text x="530" y="62" font-size="13.5" fill="#a9b1c6">Serving as Treasurer, managing financial planning, budgeting</text>
+      <text x="530" y="82" font-size="13.5" fill="#a9b1c6">and execution of technical events and workshops.</text>
+
+      <g transform="translate(1290,20)" text-anchor="middle" filter="url(#soft)">
+        <path d="M38 12 a26 26 0 1 1 0 52 a26 26 0 1 1 0 -52" fill="none" stroke="#ff5f87" stroke-width="1.4" opacity="0.6"/>
+        <path d="M38 20 l4 8 9 1 -6.5 6 1.5 9 -8 -4.5 -8 4.5 1.5 -9 -6.5 -6 9 -1 z" fill="#ff7fa8"/>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- bottom banner strip -->
+  <g transform="translate(150,1000)" font-size="15" font-weight="600" fill="#dbe3f0">
+    <rect x="0" y="-32" width="1250" height="56" rx="28" fill="#0a0f28" fill-opacity="0.7" stroke="#2a3560" stroke-width="1.2"/>
+    <g transform="translate(60,-4)">
+      <path d="M0 -12 l3 7 8 1 -6 5.5 1.5 8 -6.5 -4 -6.5 4 1.5 -8 -6 -5.5 8 -1 z" fill="#c084fc"/>
+      <text x="16" y="4" fill="#eaf2ff">Always Learning</text>
+    </g>
+    <g transform="translate(345,-4)">
+      <path d="M-8 -14 L0 -18 L8 -14 V-2 C8 6 3 11 0 13 C-3 11 -8 6 -8 -2 Z" fill="none" stroke="#3ddc84" stroke-width="2"/>
+      <path d="M-4 -3 L-1 0 L5 -8" fill="none" stroke="#3ddc84" stroke-width="2"/>
+      <text x="16" y="4" fill="#eaf2ff">Always Secure</text>
+    </g>
+    <g transform="translate(625,-4)">
+      <circle cx="0" cy="-6" r="12" fill="none" stroke="#4b9fe1" stroke-width="2"/>
+      <circle cx="0" cy="-6" r="4" fill="none" stroke="#4b9fe1" stroke-width="2"/>
+      <line x1="0" y1="-22" x2="0" y2="-18" stroke="#4b9fe1" stroke-width="2"/>
+      <line x1="0" y1="6" x2="0" y2="10" stroke="#4b9fe1" stroke-width="2"/>
+      <text x="16" y="4" fill="#eaf2ff">Always Improving</text>
+    </g>
+    <g transform="translate(930,-4)">
+      <path d="M2 -20 L-6 -4 H0 L-3 12 L9 -8 H2 Z" fill="#ffb454"/>
+      <text x="16" y="4" fill="#eaf2ff">Always Building</text>
+    </g>
+  </g>
+</svg>
