@@ -44,16 +44,16 @@
 
 ## 🚀 Featured Projects
 
+<div align="center">
+
+<img src="./assets/featured-project.svg" width="100%"/>
+
+</div>
+
+<br/>
+
 <table align="center" width="100%">
 <tr>
-<td width="50%">
-
-### 🔒 Advanced Image Encryption
-> Matrix Transformation • Seeded Pixel Permutation • Tree-Based Encryption • OpenCV
-
-Lossless image encryption engine using matrix permutation and seeded random keys, with reversible pixel-level scrambling.
-
-</td>
 <td width="50%">
 
 ### 🚩 CTF Challenge Development
@@ -62,22 +62,22 @@ Lossless image encryption engine using matrix permutation and seeded random keys
 Designed and built multiple cybersecurity CTF challenges spanning web exploitation, cryptography, and blue-team/SOC tracks.
 
 </td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🛡️ Custom SIEM (In Progress)
-> Log Collection • Parsing • Detection Rules • Alerting • Dashboards
-
-Building a lightweight Security Information and Event Management pipeline from log ingestion to alert generation.
-
-</td>
 <td width="50%">
 
 ### 🎯 Vulnerability Disclosure
 > HackerOne • Authentication Bypass
 
 Identified and responsibly disclosed an authentication bypass vulnerability through the HackerOne platform.
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### 🛡️ Custom SIEM (In Progress)
+> Log Collection • Parsing • Detection Rules • Alerting • Dashboards
+
+Building a lightweight Security Information and Event Management pipeline from log ingestion to alert generation.
 
 </td>
 </tr>
