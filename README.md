@@ -89,14 +89,7 @@ Building a lightweight Security Information and Event Management pipeline from l
 
 <div align="center">
 
-| 🏅 Achievement | 📌 Detail |
-|:--|:--|
-| PicoCTF | 133rd place out of 1,000+ teams |
-| HackerOne | Responsibly disclosed an auth bypass vulnerability |
-| ISC2 | Certified in Cybersecurity (CC) — Self Paced, Nov 2025 |
-| LinkedIn Learning | Ethical Hacking Certification, Oct 2025 |
-| Cambridge | Lingua Skill Certification, May 2024 |
-| Encryptix Association | Treasurer — financial planning & event execution |
+<img src="./assets/achievements-certifications.svg" width="100%"/>
 
 </div>
 
