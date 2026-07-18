@@ -1,0 +1,347 @@
+<svg viewBox="0 0 1560 1080" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="pageBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f2b"/>
+      <stop offset="45%" stop-color="#0e1435"/>
+      <stop offset="100%" stop-color="#160b2e"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#26305a" opacity="0.4"/>
+    </pattern>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1560" height="1080" rx="26" fill="url(#pageBg)"/>
+  <rect x="0" y="0" width="1560" height="1080" rx="26" fill="url(#dots)"/>
+  <circle cx="120" cy="140" r="240" fill="url(#glowCyan)"/>
+  <circle cx="1440" cy="960" r="260" fill="url(#glowPurple)"/>
+  <rect x="0" y="0" width="1560" height="1080" rx="26" fill="none" stroke="#2a3560" stroke-width="1.5"/>
+
+  <!-- ===================== HEADER ===================== -->
+  <g transform="translate(40,30)">
+    <rect x="0" y="0" width="64" height="64" rx="16" fill="#0d1330" stroke="#00d4ff" stroke-width="1.5"/>
+    <rect x="16" y="24" width="32" height="24" rx="4" fill="none" stroke="#00d4ff" stroke-width="2.2"/>
+    <path d="M24 24 v-6 a8 6 0 0 1 16 0 v6" fill="none" stroke="#00d4ff" stroke-width="2.2"/>
+    <line x1="16" y1="34" x2="48" y2="34" stroke="#00d4ff" stroke-width="1.6"/>
+
+    <text x="86" y="34" font-size="38" font-weight="800" letter-spacing="1" fill="#ffffff">INTERNSHIP <tspan fill="url(#titleGrad)">EXPERIENCES</tspan></text>
+    <text x="86" y="60" font-size="16" fill="#a9b1c6">Hands-on Learning. Real-world Impact.</text>
+  </g>
+
+  <g transform="translate(1450,26)">
+    <path d="M35 0 L64 12 V38 C64 58 50 70 35 76 C20 70 6 58 6 38 V12 Z" fill="none" stroke="#a855f7" stroke-width="2"/>
+    <rect x="24" y="34" width="22" height="18" rx="3" fill="none" stroke="#00d4ff" stroke-width="2.2"/>
+    <path d="M28 34 v-6 a7 6 0 0 1 14 0 v6" fill="none" stroke="#00d4ff" stroke-width="2.2"/>
+    <circle cx="35" cy="43" r="2.4" fill="#00d4ff"/>
+  </g>
+
+  <!-- ===================== CARD 1: REDYNOX (cyan) ===================== -->
+  <g transform="translate(30,120)">
+    <rect x="0" y="0" width="1500" height="420" rx="20" fill="#0a0f28" fill-opacity="0.55" stroke="#00d4ff" stroke-width="1.3"/>
+
+    <!-- Column A: company info -->
+    <g transform="translate(28,26)">
+      <rect x="0" y="0" width="270" height="72" rx="10" fill="#ffffff"/>
+      <text x="135" y="45" text-anchor="middle" font-size="20" font-weight="800" fill="#0a1a3a">⚡ REDYNOX</text>
+
+      <text x="0" y="106" font-size="18" font-weight="800" fill="#00d4ff">Redynox</text>
+      <text x="0" y="128" font-size="18" font-weight="800" fill="#00d4ff">Technologies Pvt. Ltd.</text>
+
+      <g font-size="13" fill="#c3c9dd">
+        <text x="0" y="160">🏢  Bengaluru, Karnataka, India</text>
+        <text x="0" y="184">🌐  redynox.com</text>
+        <text x="0" y="208">👥  Cybersecurity Services</text>
+        <text x="0" y="232">📅  16 Jul 2024 – 15 Jul 2025</text>
+        <text x="18" y="250" font-size="11.5" fill="#8b93a7">(12 Months)</text>
+      </g>
+
+      <rect x="0" y="270" width="230" height="30" rx="15" fill="none" stroke="#00d4ff" stroke-width="1.3"/>
+      <text x="115" y="290" text-anchor="middle" font-size="12.5" fill="#7fdcff">Role: Vulnerability Assessment Trainee</text>
+    </g>
+
+    <line x1="330" y1="26" x2="330" y2="394" stroke="#1c2a4a" stroke-width="1"/>
+
+    <!-- Column B: about + achievements -->
+    <g transform="translate(354,26)">
+      <text x="0" y="14" font-size="16" font-weight="800" fill="#00d4ff">🎯 About the Company</text>
+      <g font-size="13" fill="#c3c9dd">
+        <text x="0" y="44">Redynox is a cybersecurity consulting and technology</text>
+        <text x="0" y="64">company providing end-to-end security solutions</text>
+        <text x="0" y="84">including VAPT, cloud security, security audits, and</text>
+        <text x="0" y="104">compliance services to help organizations build a</text>
+        <text x="0" y="124">robust security posture.</text>
+      </g>
+
+      <line x1="0" y1="148" x2="360" y2="148" stroke="#1c2a4a" stroke-width="1"/>
+
+      <text x="0" y="176" font-size="16" font-weight="800" fill="#00d4ff">🏆 Key Achievements</text>
+      <g font-size="13" fill="#c3c9dd">
+        <circle cx="6" cy="200" r="3" fill="#00d4ff"/>
+        <text x="18" y="204">Identified critical vulnerabilities that helped</text>
+        <text x="18" y="222">strengthen client security posture.</text>
+        <circle cx="6" cy="244" r="3" fill="#00d4ff"/>
+        <text x="18" y="248">Contributed to multiple security assessment</text>
+        <text x="18" y="266">projects across different industries.</text>
+      </g>
+    </g>
+
+    <line x1="742" y1="26" x2="742" y2="394" stroke="#1c2a4a" stroke-width="1"/>
+
+    <!-- Column C: responsibilities -->
+    <g transform="translate(766,26)">
+      <text x="0" y="14" font-size="16" font-weight="800" fill="#00d4ff">✅ Key Responsibilities</text>
+      <g font-size="13" fill="#c3c9dd">
+        <circle cx="6" cy="38" r="3" fill="#00d4ff"/>
+        <text x="18" y="42">Performed vulnerability assessments on web</text>
+        <text x="18" y="60">applications and networks.</text>
+
+        <circle cx="6" cy="82" r="3" fill="#00d4ff"/>
+        <text x="18" y="86">Identified security weaknesses and provided</text>
+        <text x="18" y="104">actionable remediation.</text>
+
+        <circle cx="6" cy="126" r="3" fill="#00d4ff"/>
+        <text x="18" y="130">Conducted manual testing and automated</text>
+        <text x="18" y="148">scanning using industry tools.</text>
+
+        <circle cx="6" cy="170" r="3" fill="#00d4ff"/>
+        <text x="18" y="174">Prepared detailed security reports and</text>
+        <text x="18" y="192">executive summaries.</text>
+
+        <circle cx="6" cy="214" r="3" fill="#00d4ff"/>
+        <text x="18" y="218">Collaborated with the security team on</text>
+        <text x="18" y="236">real-world projects.</text>
+      </g>
+    </g>
+
+    <line x1="1130" y1="26" x2="1130" y2="394" stroke="#1c2a4a" stroke-width="1"/>
+
+    <!-- Column D: skills grid -->
+    <g transform="translate(1154,26)">
+      <text x="0" y="14" font-size="16" font-weight="800" fill="#00d4ff">⭐ Skills &amp; Tools Used</text>
+      <g font-size="11.5" font-weight="700" text-anchor="middle" fill="#eaf2ff">
+        <g transform="translate(0,34)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#ff8a4d" stroke-width="1.3"/>
+          <path d="M52 12 L34 44 H46 L40 68 L60 34 H48 Z" fill="#ff8a4d"/>
+          <text x="48" y="80">Burp Suite</text>
+        </g>
+        <g transform="translate(112,34)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#4b9fe1" stroke-width="1.3"/>
+          <ellipse cx="48" cy="34" rx="18" ry="11" fill="none" stroke="#4b9fe1" stroke-width="2.2"/>
+          <circle cx="48" cy="34" r="4" fill="#4b9fe1"/>
+          <text x="48" y="80">Nmap</text>
+        </g>
+        <g transform="translate(224,34)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#c3c9dd" stroke-width="1.3"/>
+          <path d="M48 12 L64 20 V36 C64 50 56 58 48 62 C40 58 32 50 32 36 V20 Z" fill="none" stroke="#eaf2ff" stroke-width="2"/>
+          <text x="48" y="80">OWASP ZAP</text>
+        </g>
+        <g transform="translate(0,138)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#4b9fe1" stroke-width="1.3"/>
+          <path d="M48 12 L64 20 V36 C64 50 56 58 48 62 C40 58 32 50 32 36 V20 Z" fill="none" stroke="#4b9fe1" stroke-width="2"/>
+          <text x="48" y="30" text-anchor="middle" font-size="15" fill="#4b9fe1">M</text>
+          <text x="48" y="80">Metasploit</text>
+        </g>
+        <g transform="translate(112,138)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#ffa733" stroke-width="1.3"/>
+          <rect x="42" y="14" width="12" height="36" rx="6" fill="none" stroke="#ffa733" stroke-width="2.2"/>
+          <circle cx="48" cy="54" r="4" fill="#ffa733"/>
+          <text x="48" y="80">SQLmap</text>
+        </g>
+        <g transform="translate(224,138)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#4b9fe1" stroke-width="1.3"/>
+          <path d="M28 40 Q48 12 68 40 Q48 32 28 40Z" fill="#4b9fe1"/>
+          <text x="48" y="80">Wireshark</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===================== CARD 2: TRAINS (purple) ===================== -->
+  <g transform="translate(30,560)">
+    <rect x="0" y="0" width="1500" height="480" rx="20" fill="#0a0f28" fill-opacity="0.55" stroke="#a855f7" stroke-width="1.3"/>
+
+    <!-- Column A -->
+    <g transform="translate(28,26)">
+      <rect x="0" y="0" width="270" height="72" rx="10" fill="#ffffff"/>
+      <text x="135" y="30" text-anchor="middle" font-size="15" font-weight="800" fill="#0a1a3a">🌀 TRAINS</text>
+      <text x="135" y="52" text-anchor="middle" font-size="10" fill="#5a6478">SOFTWARE TECHNOLOGIES</text>
+
+      <text x="0" y="106" font-size="18" font-weight="800" fill="#c084fc">Trains Software</text>
+      <text x="0" y="128" font-size="18" font-weight="800" fill="#c084fc">Technologies</text>
+
+      <g font-size="13" fill="#c3c9dd">
+        <text x="0" y="160">🏢  Coimbatore, Tamil Nadu, India</text>
+        <text x="0" y="184">🌐  trainstechnologies.com</text>
+        <text x="0" y="208">👥  IT Services &amp; Training</text>
+        <text x="0" y="232">📅  06 Jun 2024 – 20 Jun 2024</text>
+        <text x="18" y="250" font-size="11.5" fill="#8b93a7">(2 Weeks)</text>
+      </g>
+
+      <rect x="0" y="270" width="200" height="30" rx="15" fill="none" stroke="#a855f7" stroke-width="1.3"/>
+      <text x="100" y="290" text-anchor="middle" font-size="12.5" fill="#c084fc">Role: Cyber Security Intern</text>
+    </g>
+
+    <line x1="330" y1="26" x2="330" y2="454" stroke="#241a3f" stroke-width="1"/>
+
+    <!-- Column B -->
+    <g transform="translate(354,26)">
+      <text x="0" y="14" font-size="16" font-weight="800" fill="#c084fc">🏢 About the Company</text>
+      <g font-size="13" fill="#c3c9dd">
+        <text x="0" y="44">Trains Software Technologies is an IT training and</text>
+        <text x="0" y="64">development company offering industry-oriented</text>
+        <text x="0" y="84">training and solutions in emerging technologies</text>
+        <text x="0" y="104">and cybersecurity.</text>
+      </g>
+
+      <line x1="0" y1="148" x2="360" y2="148" stroke="#241a3f" stroke-width="1"/>
+
+      <text x="0" y="180" font-size="16" font-weight="800" fill="#c084fc">🎓 Key Learnings</text>
+      <g font-size="13" fill="#c3c9dd">
+        <circle cx="6" cy="204" r="3" fill="#c084fc"/>
+        <text x="18" y="208">Gained practical knowledge of penetration</text>
+        <text x="18" y="226">testing and vulnerability assessment.</text>
+        <circle cx="6" cy="248" r="3" fill="#c084fc"/>
+        <text x="18" y="252">Improved understanding of networking</text>
+        <text x="18" y="270">protocols and security fundamentals.</text>
+      </g>
+    </g>
+
+    <line x1="742" y1="26" x2="742" y2="454" stroke="#241a3f" stroke-width="1"/>
+
+    <!-- Column C -->
+    <g transform="translate(766,26)">
+      <text x="0" y="14" font-size="16" font-weight="800" fill="#c084fc">✅ Key Responsibilities</text>
+      <g font-size="13" fill="#c3c9dd">
+        <circle cx="6" cy="38" r="3" fill="#c084fc"/>
+        <text x="18" y="42">Learned core concepts of cybersecurity</text>
+        <text x="18" y="60">and ethical hacking.</text>
+
+        <circle cx="6" cy="82" r="3" fill="#c084fc"/>
+        <text x="18" y="86">Explored network security, threat analysis</text>
+        <text x="18" y="104">and vulnerability scanning.</text>
+
+        <circle cx="6" cy="126" r="3" fill="#c084fc"/>
+        <text x="18" y="130">Hands-on sessions on tools and</text>
+        <text x="18" y="148">techniques used in penetration testing.</text>
+
+        <circle cx="6" cy="170" r="3" fill="#c084fc"/>
+        <text x="18" y="174">Worked on labs and small projects to</text>
+        <text x="18" y="192">understand real-world attacks and defenses.</text>
+      </g>
+
+      <line x1="0" y1="214" x2="360" y2="214" stroke="#241a3f" stroke-width="1"/>
+
+      <text x="0" y="242" font-size="15" font-weight="800" fill="#c084fc">🎖 Outcome</text>
+      <g font-size="13" fill="#c3c9dd">
+        <text x="0" y="266">Strengthened technical skills and gained</text>
+        <text x="0" y="284">confidence in applying cybersecurity</text>
+        <text x="0" y="302">concepts in real-world scenarios.</text>
+      </g>
+    </g>
+
+    <line x1="1130" y1="26" x2="1130" y2="454" stroke="#241a3f" stroke-width="1"/>
+
+    <!-- Column D: skills grid -->
+    <g transform="translate(1154,26)">
+      <text x="0" y="14" font-size="15.5" font-weight="800" fill="#c084fc">⭐ Skills &amp; Tools Explored</text>
+      <g font-size="11.5" font-weight="700" text-anchor="middle" fill="#eaf2ff">
+        <g transform="translate(0,34)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#eaf2ff" stroke-width="1.3"/>
+          <path d="M30 60 L50 20 L58 35 L66 20" fill="none" stroke="#eaf2ff" stroke-width="2"/>
+          <text x="48" y="80">Kali Linux</text>
+        </g>
+        <g transform="translate(112,34)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#4b9fe1" stroke-width="1.3"/>
+          <path d="M28 40 Q48 12 68 40 Q48 32 28 40Z" fill="#4b9fe1"/>
+          <text x="48" y="80">Wireshark</text>
+        </g>
+        <g transform="translate(224,34)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#ff5f56" stroke-width="1.3"/>
+          <path d="M48 12 C34 14 34 26 40 30 L34 40 C28 46 28 56 36 60 L48 66 L60 60 C68 56 68 46 62 40 L56 30 C62 26 62 14 48 12Z" fill="#ff5f56"/>
+          <text x="48" y="80">John the Ripper</text>
+        </g>
+        <g transform="translate(0,138)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#22e58f" stroke-width="1.3"/>
+          <polygon points="48,14 62,22 62,38 48,46 34,38 34,22" fill="none" stroke="#3ddc84" stroke-width="2"/>
+          <text x="48" y="32" text-anchor="middle" font-size="14" fill="#3ddc84">N</text>
+          <text x="48" y="80">Nessus</text>
+        </g>
+        <g transform="translate(112,138)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#4b9fe1" stroke-width="1.3"/>
+          <ellipse cx="48" cy="34" rx="18" ry="11" fill="none" stroke="#4b9fe1" stroke-width="2.2"/>
+          <circle cx="48" cy="34" r="4" fill="#4b9fe1"/>
+          <text x="48" y="80">Nmap</text>
+        </g>
+        <g transform="translate(224,138)">
+          <rect x="0" y="0" width="96" height="90" rx="10" fill="#0a1225" stroke="#3ddc84" stroke-width="1.3"/>
+          <path d="M48 14 C40 22 34 30 34 40 a14 14 0 0 0 28 0 c0-10-6-18-14-26Z" fill="#3ddc84"/>
+          <text x="48" y="80">Hydra</text>
+        </g>
+      </g>
+
+      <g transform="translate(120,244)" opacity="0.8">
+        <rect x="0" y="0" width="44" height="44" rx="8" fill="none" stroke="#c084fc" stroke-width="1.6"/>
+        <rect x="14" y="18" width="16" height="14" rx="2" fill="none" stroke="#c084fc" stroke-width="1.6"/>
+        <path d="M18 18 v-4 a4 3 0 0 1 8 0 v4" fill="none" stroke="#c084fc" stroke-width="1.4"/>
+        <rect x="56" y="4" width="52" height="36" rx="4" fill="none" stroke="#c084fc" stroke-width="1.6"/>
+        <circle cx="82" cy="22" r="9" fill="none" stroke="#c084fc" stroke-width="1.6"/>
+        <path d="M77 22 l4 4 8 -8" fill="none" stroke="#c084fc" stroke-width="1.6"/>
+        <line x1="56" y1="44" x2="112" y2="44" stroke="#c084fc" stroke-width="1.6"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ===================== BOTTOM: What I Gained ===================== -->
+  <g transform="translate(30,1054)" font-size="13.5" fill="#dbe3f0">
+    <rect x="0" y="-40" width="1500" height="60" rx="30" fill="#0a0f28" fill-opacity="0.7" stroke="#2a3560" stroke-width="1.2"/>
+    <g transform="translate(30,-10)">
+      <circle cx="14" cy="0" r="14" fill="none" stroke="#00d4ff" stroke-width="1.8"/>
+      <circle cx="14" cy="-4" r="5" fill="none" stroke="#00d4ff" stroke-width="1.6"/>
+      <path d="M5 9 a9 8 0 0 1 18 0" fill="none" stroke="#00d4ff" stroke-width="1.6"/>
+      <text x="36" y="5" font-weight="800" fill="#eaf2ff">What I Gained</text>
+    </g>
+    <g transform="translate(300,-10)">
+      <path d="M0 -12 L12 -16 L24 -12 V0 C24 8 18 13 12 15 C6 13 0 8 0 0 Z" fill="none" stroke="#4b9fe1" stroke-width="1.6"/>
+      <path d="M6 0 L10 4 L18 -6" fill="none" stroke="#4b9fe1" stroke-width="1.6"/>
+      <text x="36" y="0">Practical exposure to real-world</text>
+      <text x="36" y="18">security assessments</text>
+    </g>
+    <g transform="translate(620,-10)">
+      <circle cx="10" cy="-4" r="8" fill="none" stroke="#c084fc" stroke-width="1.6"/>
+      <line x1="16" y1="2" x2="24" y2="10" stroke="#c084fc" stroke-width="1.6"/>
+      <text x="36" y="0">Hands-on experience with</text>
+      <text x="36" y="18">industry-leading tools</text>
+    </g>
+    <g transform="translate(910,-10)">
+      <path d="M12 -18 a10 10 0 0 1 10 10 c0 5 -3 7 -4 10 h-12 c-1 -3 -4 -5 -4 -10 a10 10 0 0 1 10 -10Z" fill="none" stroke="#3ddc84" stroke-width="1.6"/>
+      <line x1="8" y1="4" x2="16" y2="4" stroke="#3ddc84" stroke-width="1.6"/>
+      <text x="36" y="0">Problem-solving and analytical</text>
+      <text x="36" y="18">thinking</text>
+    </g>
+    <g transform="translate(1220,-10)">
+      <circle cx="6" cy="-6" r="6" fill="none" stroke="#ffa733" stroke-width="1.6"/>
+      <circle cx="20" cy="-6" r="6" fill="none" stroke="#ffa733" stroke-width="1.6"/>
+      <path d="M0 12 a7 7 0 0 1 12 0" fill="none" stroke="#ffa733" stroke-width="1.6"/>
+      <path d="M14 12 a7 7 0 0 1 12 0" fill="none" stroke="#ffa733" stroke-width="1.6"/>
+      <text x="36" y="0">Team collaboration and</text>
+      <text x="36" y="18">professional skills</text>
+    </g>
+  </g>
+</svg>
