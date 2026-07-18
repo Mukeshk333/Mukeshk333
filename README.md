@@ -47,7 +47,7 @@ soc_analyst:
 </td>
 <td width="40%" align="center">
 
-<img src="https://cybersecurity.att.com/blogs/wp-content/uploads/2022/01/threat-hunting.png" width="0"/>
+<img src="https://github.com/Mukeshk333/Mukeshk333/blob/main/WhatsApp%20Image%202026-07-17%20at%2011.13.46%20PM.jpeg" width="0"/>
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="260"/>
 
 </td>
