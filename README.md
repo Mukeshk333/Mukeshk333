@@ -24,35 +24,11 @@
 
 ## 🧑‍💻 About Me
 
-<table align="center">
-<tr>
-<td width="60%">
+<div align="center">
 
-```yaml
-soc_analyst:
-  name: "Mukesh K"
-  role: "Aspiring SOC Analyst"
-  education: "B.E CSE (Cyber Security), 2023 - 2027"
-  college: "Dr. Mahalingam College of Engineering & Technology"
-  cgpa: "8.746 / 10"
-  focus:
-    - Security Monitoring
-    - SIEM & Log Analysis
-    - Threat Detection & Incident Response
-    - Vulnerability Assessment & Pentesting
-  motto: "When you want something, all the
-          universe conspires to help you achieve it."
-```
+<img src="./assets/about-me.svg" width="100%"/>
 
-</td>
-<td width="40%" align="center">
-
-<img src="https://github.com/Mukeshk333/Mukeshk333/blob/main/WhatsApp%20Image%202026-07-17%20at%2011.13.46%20PM.jpeg" width="0"/>
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="260"/>
-
-</td>
-</tr>
-</table>
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=00ffcc&height=2&section=header"/>
 
