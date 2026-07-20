@@ -1,5 +1,6 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0b0f2b,50:0e1435,100:160b2e&height=220&section=header&text=MUKESH%20K&fontSize=60&fontColor=4db8ff&fontAlignY=40&desc=SOC%20Analyst%20%7C%20Threat%20Detection%20%7C%20Cyber%20Security&descAlignY=60&descSize=18&animation=twinkling" width="100%"/>
+
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:0b0f2b,50:0e1435,100:160b2e&height=220&section=header&text=MUKESH%20K&fontSize=60&fontColor=4db8ff&fontAlignY=40&desc=SOC%20Analyst%20%7C%20Threat%20Detection%20%7C%20Cyber%20Security&descAlignY=60&descSize=18&animation=twinkling" width="100%"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00FFCC&center=true&vCenter=true&width=750&lines=Security+Operations+Center+(SOC)+Analyst;Threat+Detection+%7C+Incident+Response;Log+Analysis+%7C+SIEM+%7C+Network+Security;Vulnerability+Assessment+%26+Pentesting;Always+Learning+%7C+Always+Watching+%F0%9F%9B%A1%EF%B8%8F" />
 
